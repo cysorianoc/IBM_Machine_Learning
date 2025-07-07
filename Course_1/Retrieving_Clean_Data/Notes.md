@@ -122,3 +122,29 @@ Messy data can manifest in several ways:
   is essential for building reliable models.
 
 > “Clean data is the foundation of good data science.”
+
+
+## Associated notebooks
+
+
+### **1. Data Reading Fundamentals (Course\_1\_ML\_NB\_1.ipynb & Course\_1\_ML\_NB\_2.ipynb)**
+
+These notebooks introduce fundamental concepts of data reading in Python for Machine Learning. They cover how to connect to and read data from various sources, including CSV files and SQL databases (specifically SQLite). Key topics include:
+
+  * **Establishing Database Connections:** Demonstrates connecting to different SQL databases using `sqlite3` and `pandas.io.sql`.
+  * **Reading Data:** Explains how to load data into Pandas DataFrames from CSV files using `pd.read_csv` and from SQL tables using `pds.read_sql`.
+  * **Exploring Data:** Provides initial steps for examining loaded data, such as checking data types (`.dtypes`) and inspecting the first few rows (`.head()`).
+
+### **2. Data Cleaning Techniques (Course\_1\_ML\_NB\_3\_Data\_Cleaning\_Lab.ipynb)**
+
+This notebook focuses on essential data cleaning techniques crucial for preparing raw data for machine learning analysis. It addresses common issues found in real-world datasets that can lead to inaccurate model predictions. The lab covers:
+
+  * **Handling Missing Values:** Methods for identifying and addressing missing data points.
+  * **Managing Duplicates:** Techniques for detecting and removing duplicate entries in the dataset.
+  * **Outlier Treatment:** Strategies for identifying and handling outliers that can skew data analysis and model performance.
+  * **Data Transformation:** Introduction to transforming skewed variables, such as using log transformations, to improve data distribution for modeling.
+  * **Standardization and Normalization:** Basic concepts of scaling data to a standard range or distribution.
+
+
+
+
